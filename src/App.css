@@ -36,3 +36,373 @@
     transform: rotate(360deg);
   }
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* App.css or Login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+/* Register Page Styles */
+
+.register-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+}
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+/* Payment.css */
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Payment.css */
+
+/* Payment.css */
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8f5e9; /* Light green background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Payment Container */
+.payment-container {
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Payment Heading */
+.payment-heading {
+  text-align: center;
+  color: #2e7d32; /* Dark green for heading */
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #2e7d32; /* Dark green for labels */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cfd8dc; /* Light border */
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #4caf50; /* Green border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3); /* Soft shadow on focus */
+}
+
+/* Button Styles */
+.pay-now-button {
+  background-color: #4caf50; /* Green button */
+  color: white;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pay-now-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  box-shadow: 0 6px 12px rgba(56, 142, 60, 0.2); /* Hover shadow */
+}
+
+/* Error and Success Messages */
+.error-message, .success-message {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.error-message {
+  background-color: #ffcccb; /* Light red background for error */
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+.success-message {
+  background-color: #d9f7be; /* Light green background for success */
+  color: #388e3c;
+  border: 1px solid #a5d6a7;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .payment-container {
+    padding: 25px;
+    margin: 20px auto;
+  }
+
+  .payment-heading {
+    font-size: 22px;
+  }
+
+  .form-group input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .pay-now-button {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+
+/*new*/
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-link span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pay-now-button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* src/App.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.nav-button, .logout-button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+}
+
+.logout-button:hover, .nav-button:hover {
+  opacity: 0.8;
+}
+
+.dashboard-container, .payment-container, .login-container, .register-container {
+  margin: 2em auto;
+  padding: 1em;
+  max-width: 500px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pay-now-button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
